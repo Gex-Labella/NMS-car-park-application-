@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        tools:ignore="MissingPrefix">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_baseline_family_restroom_24"
+            android:title="@string/menu_AirtelMoney" />
+        <item
+            android:id="@+id/nav_siblings"
+            android:icon="@drawable/ic_baby_feet"
+            android:title="@string/menu_M_pesa" />
+        <item
+            android:id="@+id/nav_cousins"
+            android:icon="@drawable/ic_connect"
+            android:title="@string/menu_TIMS" />
+        <item
+            android:id="@+id/nav_u"
+            android:icon="@drawable/ic_user_male"
+            android:title="@string/menu_GoogleTraffic" />
+        <item
+            android:id="@+id/nav_aunts"
+            android:icon="@drawable/ic_female_user"
+            android:title="@string/menu_BankAccounts" />
+    </group>
+</menu>

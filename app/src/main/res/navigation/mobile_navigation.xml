@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.lizyaver.lizyaverorg.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_all"
+        android:name="com.lizyaver.lizyaverorg.ui.siblings.SiblingsFragment"
+        android:label="@string/menu_AirtelMoney"
+        tools:layout="@layout/fragment_siblings" />
+
+    <fragment
+        android:id="@+id/nav_siblings"
+        android:name="com.lizyaver.lizyaverorg.ui.cousins.cousins"
+        android:label="@string/menu_M_pesa"
+        tools:layout="@layout/fragment_cousins" />
+
+    <fragment
+        android:id="@+id/nav_cousins"
+        android:name="com.lizyaver.lizyaverorg.ui.uncles.UnclesFragment"
+        tools:layout="@drawable/ic_female_use"
+        android:label="@string/menu_BankAccounts"
+        />
+
+    <fragment
+        android:id="@+id/nav_aunts"
+        android:name="com.lizyaver.lizyaverorg.ui.aunts.AuntsFragment"
+        android:label="@string/menu_GoogleTraffic"
+        tools:layout="@layout/fragment_aunts" />
+
+    <fragment
+        android:id="@+id/nav_uncles"
+        android:name="com.lizyaver.lizyaverorg.ui.uncles.UnclesFragment"
+        tools:layout="@layout/fragment_uncles" />
+
+
+
+
+
+
+
+</navigation>

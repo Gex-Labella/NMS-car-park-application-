@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756740910176",
+    "firebase_url": "https://lizyaverorg-90f4c-default-rtdb.firebaseio.com",
+    "project_id": "lizyaverorg-90f4c",
+    "storage_bucket": "lizyaverorg-90f4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756740910176:android:447cca829f826712b5e705",
+        "android_client_info": {
+          "package_name": "com.lizyaver.lizyaverorg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756740910176-vmgvebqjs25876itv4bm7iod46rnicnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lizyaver.lizyaverorg",
+            "certificate_hash": "c5b9328f20838c4e06e314de87eec6b2cf15f045"
+          }
+        },
+        {
+          "client_id": "756740910176-9ik3bj78ik1hdhvm7n12i8js2ben6l81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAjJQaRLF1lYRDCvcVT_DtS41ZX7SF_cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756740910176-9ik3bj78ik1hdhvm7n12i8js2ben6l81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
